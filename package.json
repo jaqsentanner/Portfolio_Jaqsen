@@ -1,0 +1,24 @@
+{
+  "name": "portfolio_jaqsen",
+  "version": "1.0.0",
+  "description": "My coding portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaqsentanner/Portfolio_Jaqsen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaqsentanner/Portfolio_Jaqsen/issues"
+  },
+  "homepage": "https://github.com/jaqsentanner/Portfolio_Jaqsen#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
