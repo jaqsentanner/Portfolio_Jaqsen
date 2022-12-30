@@ -51,6 +51,24 @@ main {
     font-weight:500;
 }
 
-.modal {
+/* .modal {
+    display: none;
+} */
+
+#contactModal {
     display:none;
 }
+
+#contentMargin {
+    margin-top:100px;
+}
+
+#buttonSubmit {}
+
+#formName {}
+
+#formEmail {}
+
+#formNumber {}
+
+#formMessage {}

@@ -1,0 +1,20 @@
+[
+    {
+    "inquirer_name": "Billie Jean",
+    "email": "bj@yahoo.com",
+    "phone": "507-533-6909",
+    "message": "Can we work together soon?"
+    },
+    {
+    "inquirer_name": "Michael Myers",
+    "email": "10ksteps@test.com",
+    "phone": "",
+    "message": "I will find you!"
+    },
+    {
+    "inquirer_name": "Shrek",
+    "email": "ogrethings@gmail.com",
+    "phone": "(239)000-8827",
+    "message": "I am also from Florida!"
+    }
+]

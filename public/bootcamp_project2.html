@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>It Takes a Village</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar-brand">
-            <a class="navbar-item navbar-item-logo" href="../index.html">
+            <a class="navbar-item navbar-item-logo" href="./index.html">
             </a>
         </div>
 
@@ -46,18 +46,56 @@
                   </a>
                   <hr class="navbar-divider">
                   <a class="navbar-item">
-                    Report an issue
+                    <div onclick="modalShow()">Contact Jaqsen</div>
                   </a>
                 </div>
               </div>
             </div>
-
-        
-
-
-
-
     </nav>
+
+    <div id='contactModal' class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content" id="contentMargin">
+
+        <div class="field">
+          <label class="label font-black">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Text Input">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label font-black">E-Mail</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="E-Mail Input">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label font-black">Phone Number</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Phone Number">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label font-black">How Can I Help You?</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Message Here"></textarea>
+          </div>
+        </div>
+
+        <input class="button is-dark is-responsive is-outlined is-rounded" type="submit">
+
+      </div>
+      <button onclick='closeModal()' class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
     
 </body>
 </html>
