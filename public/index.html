@@ -98,7 +98,7 @@
                   </a>
                   <hr class="navbar-divider">
                   <a class="navbar-item">
-                    Contact Jaqsen
+                    <div onclick="modalShow()">Contact Jaqsen</div>
                   </a>
                 </div>
               </div>
@@ -182,45 +182,48 @@
     </main>
   </div>
 
-    <div class="modal">
+    <div id='contactModal' class="modal">
       <div class="modal-background"></div>
-      <div class="modal-content">
+      <div class="modal-content" id="contentMargin">
 
         <div class="field">
           <label class="label font-black">Name</label>
           <div class="control">
-            <input class="input" type="text" placeholder="Text Input">
+            <input class="input" id="formName" type="text" placeholder="Text Input">
           </div>
         </div>
 
         <div class="field">
           <label class="label font-black">E-Mail</label>
           <div class="control">
-            <input class="input" type="email" placeholder="E-Mail Input">
+            <input class="input" id="formEmail" type="email" placeholder="E-Mail Input">
           </div>
         </div>
 
         <div class="field">
           <label class="label font-black">Phone Number</label>
           <div class="control">
-            <input class="input" type="text" placeholder="Phone Number">
+            <input class="input" id="formNumber" type="text" placeholder="Phone Number">
           </div>
         </div>
 
         <div class="field">
           <label class="label font-black">How Can I Help You?</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Message Here"></textarea>
+            <textarea class="textarea" id="formMessage" placeholder="Message Here"></textarea>
           </div>
         </div>
 
+        <input class="button is-dark is-responsive is-outlined is-rounded" id="buttonSubmit" type="submit">
+
       </div>
-      <button class="modal-close is-large" aria-label="close"></button>
+      <button onclick='closeModal()' class="modal-close is-large" aria-label="close"></button>
     </div>
     
     
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/formRequest.js"></script>
 </body>
 </html>
