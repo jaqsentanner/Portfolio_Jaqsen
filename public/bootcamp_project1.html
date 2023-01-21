@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href='./css/fog.css'>
     <title>Weather & News App</title>
 </head>
 <body>
+
+    <div id="foglayer_01" class="fog">
+      <div class="image01"></div>
+      <div class="image02"></div>
+    </div>
+    <div id="foglayer_02" class="fog">
+      <div class="image01"></div>
+      <div class="image02"></div>
+    </div>
+    <div id="foglayer_03" class="fog">
+      <div class="image01"></div>
+      <div class="image02"></div>
+    </div>
+
     <nav class="navbar">
         <div class="navbar-brand">
             <a class="navbar-item navbar-item-logo" href="./index.html">
@@ -53,6 +68,25 @@
             </div>
     </nav>
 
+    <section class="section">
+      <div class="container">
+        <div class="columns font-black boot-one is-centered">
+          <div class="column is-full">
+            <h1>E-News | Lightning Fast News & Weather</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+    <div class="columns font-black boot-one">
+      <div class="column is-full"><h1>Testing</h1></div>
+    </div>
+
+    <div class="columns font-black boot-one">
+      <div class="column is-full"><h1>Testing</h1></div>
+    </div>
+
     <div id='contactModal' class="modal">
       <div class="modal-background"></div>
       <div class="modal-content" id="contentMargin">
@@ -90,6 +124,7 @@
       </div>
       <button onclick='closeModal()' class="modal-close is-large" aria-label="close"></button>
     </div>
+
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

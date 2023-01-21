@@ -1,4 +1,4 @@
-const sequelize = require('sequelize');
+const sequelize = require('../config/connection');
 const Contact = require('../models/contactForm');
 const formData = require('./form-seeds.json');
 
